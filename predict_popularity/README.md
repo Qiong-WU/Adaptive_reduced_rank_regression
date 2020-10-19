@@ -1,7 +1,7 @@
 # Introduction
 Matlab codes for examining Adaptive-RRR on the Twitter dataset.
 
-## Entry
+## Entry:
 X_test_driver.m is the entry file. For each loop, it 
  (1) loads training, validation and testing dataset 
  (2) scans parameters for the selected method and chooses the parameters from the best validation dataset.
@@ -16,7 +16,7 @@ sample_tweet.mat is the sample data where it has x_train, y_train, x_val, y_val,
 
 
 
-## Reference
+## Reference:
 
 For nuclear norm solver, we used the NNLS package [1].  
 The package is available at https://blog.nus.edu.sg/mattohkc/softwares/nnls/
